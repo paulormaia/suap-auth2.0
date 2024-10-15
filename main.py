@@ -7,8 +7,8 @@ app = Flask(__name__)
 app.secret_key = 'minha-chave-secreta'  # Alterar para algo mais seguro em produção
 
 # Configurações do OAuth e endpoints do SUAP
-CLIENT_ID = os.environ['CLIENT_ID']
-CLIENT_SECRET = os.environ['CLIENT_SECRET']
+CLIENT_ID = 'VLXSMpIPsivkZGJ1YTHOA5zqFs6UiEbQsAJzWqMA'
+CLIENT_SECRET = 'Rhrnl0ViyHklVIMDGUWpyba0zItkMfbNPVsa69u6gePjmFjVEpW6Dod8W90T8H8xkAtCLqZN6K0OBZe73zMsqCcEZ6oI2aeFrgPAeiz3XFQlUF93neD1EkF3vVwT2X8B'
 REDIRECT_URI = 'https://11c6fd84-7b8e-4d4f-8a4f-6ab779fd7953-00-3s7mc26x9hpal.riker.replit.dev/callback'
 AUTHORIZATION_ENDPOINT = 'https://suap.ifrn.edu.br/o/authorize/'
 TOKEN_ENDPOINT = 'https://suap.ifrn.edu.br/o/token/'
